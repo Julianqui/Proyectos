@@ -1,0 +1,283 @@
+body {
+    -moz-animation-duration: 4s;
+    -moz-animation-name: bkchange;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-name: bkchange;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@-moz-keyframes bkchange {
+    from {
+        background: aqua
+    }
+    to {
+        background: orange
+    }
+}
+
+@-webkit-keyframes bkchange {
+    from {
+        background: aqua
+    }
+    to {
+        background: orange
+    }
+}
+
+
+/* body {
+    background-color: rgb(255, 153, 0);
+} */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-header {
+    margin-top: 10%;
+}
+
+.logo {
+    width: 40%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.card {
+    -moz-animation-duration: 1s;
+    -moz-animation-name: bkchange;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bkchange;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    @-moz-keyframes bkchange {
+        from {
+            background: aqua;
+        }
+        to {
+            background: orange;
+        }
+    }
+    @-webkit-keyframes bkchange {
+        from {
+            background: rgb(7, 97, 15);
+        }
+        to {
+            background: #0415fd;
+        }
+    }
+    /* background-color: rgb(255, 153, 0); */
+    border:none;
+}
+
+.card-header {
+    background-color: rgb(66, 64, 64);
+    margin-top: 5%;
+    color: aliceblue;
+}
+
+.card-body {
+    background-color: rgb(248, 247, 245);
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+.btn.btn-danger.btn-lg {
+    margin-left: 30%;
+    position: relative;
+}
+
+row {
+    width: 70%;
+}
+
+.ola {
+    margin-left: 30%;
+    width: 100%;
+}
+
+.panel-title {
+    margin-left: 100%;
+    width: 100%;
+    color: aliceblue;
+}
+
+.container {
+    height: 100%;
+}
+
+.btn.btn-info {
+    margin-left: 130%;
+    border: 5px solid blue;
+}
+
+btn.btn-primary.btn-xs {
+    margin-left: 130%;
+}
+
+/* .btn.btn-success.btn-block {
+    margin-left: 0%;
+}
+
+
+
+.btn.btn-danger.btn-block {
+    margin-left: 0%;
+} */
+
+.form-control.input-sm {
+    background: lightblue;
+}
+
+.icono {
+    width: 40px;
+}
+
+.logui {
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 40%;
+}
+
+select {
+    background: lightblue;
+}
+
+.user {
+    width: 40%;
+    margin-left: 60%;
+}
+
+.panel-title {
+    margin-left: 30%;
+    color: black;
+}
+
+.btn.btn-danger.dropdown-toggle {
+    margin-left: 15%;
+    margin-bottom: 40%;
+    width: 100%;
+}
+
+.btn.btn-primary {
+    border: 2px solid blue;
+}
+
+.form-control {
+    background: lightblue;
+}
+
+.card-body {
+    background: linear-gradient(to top, #33ccff 0%, #003300 100%);
+    border: 3px blue solid;
+}
+
+label {
+    color: white;
+}
+
+.table.table-bordred.table-striped {
+    background: blue;
+    /* background: linear-gradient(to bottom, #00cc66 0%, #000066 33%); */
+    border-radius: 2%;
+}
+
+.pull-left {
+    background: grey;
+    border: 2px solid blue;
+    width: 70%;
+    margin-left: 40%;
+    border-radius: 2%;
+    ;
+}
+
+.administracion {
+    margin-left: 3%;
+}
+
+
+/* .form-control.input-sm:hover{
+  border: green 5px solid;
+} */
+
+
+/* .form-control:hover{
+  border: 5px red solid;
+} */
+
+.btn.btn-primary.hola {
+    margin-left: 30%;
+    margin-top: 30%;
+    width: 50%;
+    border: 10px solid green;
+}
+
+.btn.btn-primary.hola:hover {
+    background: red;
+}
+
+.btn.btn-danger.btn-lg:hover {
+    background: orange;
+}
+
+.btn.btn-info.btn-block {
+    background: orange;
+}
+
+.btn.btn-info.btn-block.fer {
+    margin-left: 0%;
+}
+
+.btn.btn-success.btn-block.fer {
+    margin-top: 5%;
+    margin-left: 0%;
+}
+
+.panel-body.estrella {
+    margin-left: 40%;
+    width: 100%;
+}
+
+.panel-title.editar {
+    margin-left: 40%;
+    width: 100%;
+}
+
+.btn.btn-danger.btn-block.fero {
+    margin-left: 40%;
+    width: 100%;
+}
+
+.btn.btn-danger.btn-block.fero {
+    margin-left: 0%;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
